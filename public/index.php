@@ -1,4 +1,4 @@
-<?php require_once "../database.php"; ?>
+<?php require_once "/database.php"; ?>
 
 <!DOCTYPE html>
 <html>
@@ -8,19 +8,19 @@
 	<title>PHP SQL</title>
 
     <style>
-      <?php include "public/css/bootstrap.min.css"; ?>
-      <?php include "public/css/bootstrap.min.css.map"; ?>
-      <?php include "public/css/styles.css"; ?>
+      <?php include "/public/css/bootstrap.min.css"; ?>
+      <?php include "/public/css/bootstrap.min.css.map"; ?>
+      <?php include "/public/css/styles.css"; ?>
     </style>
 
     <script>
-      <?php include "public/js/main.js"; ?>
+      <?php include "/public/js/main.js"; ?>
     </script>
   </head>
   <body>
 
-    <?php include_once "../requests.php"; ?>
-    <?php include_once "../view_contacts.php"; ?>
+    <?php include_once "/requests.php"; ?>
+    <?php include_once "/view_contacts.php"; ?>
 
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
@@ -98,7 +98,7 @@
     </div>
     </div>
 
-    <?php include_once "../delete_edit.php"; ?>    
+    <?php include_once "/delete_edit.php"; ?>    
 
     </div>
   </body>
