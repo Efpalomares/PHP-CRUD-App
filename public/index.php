@@ -53,7 +53,7 @@
               </div>
 
               <div class="card-body">
-                <form method="post" action="<?php echo __DIR__ . '/../requests.php';?>" onsubmit="validate_form()">
+                <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>" onsubmit="validate_form()">
 
                   <div class="mb3">
                     <input class="form-control" id="fullname" name="fullname" type="text" placeholder="Full name"/>          
