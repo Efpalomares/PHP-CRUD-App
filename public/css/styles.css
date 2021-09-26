@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body
+{
+    background-image: linear-gradient(to right top, #140065, #251478, #35268b, #43389f, #524ab3, #515ac2, #506ad0, #4f7ade, #3e8ae7, #2f99ee, #2aa8f2, #33b6f5);
+
+    background-repeat: no-repeat;
+
+}
+
+p
+{
+    font-family: 'Roboto', sans-serif;
+    font-size:2.5rem;
+    margin:1rem;
+}
+
+.container
+{
+    margin-top:2rem;
+    margin-bottom:20rem;
+}
