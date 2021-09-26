@@ -1,4 +1,4 @@
-<?php require_once __DIR__ . "/../database.php"; ?>
+<?php require_once __DIR__ . '/../database.php'; ?>
 
 <!DOCTYPE html>
 <html>
@@ -8,25 +8,25 @@
 	<title>PHP SQL</title>
 
     <style>
-      <?php include __DIR__ . "/public/css/bootstrap.min.css"; ?>
-      <?php include __DIR__ . "/public/css/bootstrap.min.css.map"; ?>
-      <?php include __DIR__ . "/public/css/styles.css"; ?>
+      <?php include __DIR__ . '/css/bootstrap.min.css'; ?>
+      <?php include __DIR__ . '/css/bootstrap.min.css.map'; ?>
+      <?php include __DIR__ . '/css/styles.css'; ?>
     </style>
 
     <script>
-      <?php include __DIR__ . "/public/js/main.js"; ?>
+      <?php include __DIR__ . '/js/main.js'; ?>
     </script>
   </head>
   <body>
 
-    <?php include_once __DIR__ . "/../requests.php"; ?>
-    <?php include_once __DIR__ . "/../view_contacts.php"; ?>
+    <?php include_once __DIR__ . '/../requests.php'; ?>
+    <?php include_once __DIR__ . '/../view_contacts.php'; ?>
 
 <nav class="navbar navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand d-flex align-items-center" href="#">
       <?php 
-       $image = 'public/img/database.svg';
+       $image = __DIR__ . '/img/database.svg';
        $image_data = base64_encode(file_get_contents($image));
        $src = 'data: '.mime_content_type($image).';base64,'.$image_data;
        echo '<img src="',$src,'" width="50" height="80" class="d-inline-black align-text-top">';
@@ -98,7 +98,7 @@
     </div>
     </div>
 
-    <?php include_once __DIR__ . "/../delete_edit.php"; ?>    
+    <?php include_once __DIR__ . '/../delete_edit.php'; ?>    
 
     </div>
   </body>
